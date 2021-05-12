@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflare-go
+module github.com/twoequaldots/cloudflare-go
 
 go 1.15
 
