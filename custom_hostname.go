@@ -74,7 +74,7 @@ type CustomHostname struct {
 	ID                        string                                  `json:"id,omitempty"`
 	Hostname                  string                                  `json:"hostname,omitempty"`
 	CustomOriginServer        string                                  `json:"custom_origin_server,omitempty"`
-	SSL                       CustomHostnameSSL                       `json:"ssl,omitempty"`
+	SSL                       *CustomHostnameSSL                      `json:"ssl,omitempty"`
 	CustomMetadata            CustomMetadata                          `json:"custom_metadata,omitempty"`
 	Status                    CustomHostnameStatus                    `json:"status,omitempty"`
 	VerificationErrors        []string                                `json:"verification_errors,omitempty"`
